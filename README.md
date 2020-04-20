@@ -1,2 +1,20 @@
-# titanic
-Repository with analysis titanic data 
+# Создание DecisionTree
+на основе датасета Titanic
+
+В работе рассмотрены основные принципы построения дерева решений, как обрабатывать данные для него и как добиться минимального уровня энтропии
+
+Данные для анализа были взяты с [Kaggle](https://www.kaggle.com/c/titanic/data) и включают в себя:
+* survival	 - выжил пассажир или нет (0 = нет, 1 = да)
+* pclass – класс билета (1- первый, 2 –второй, 3- третий)
+* sex – пол 
+* age – возраст в годах	
+* sibsp – братья / сестры/ супруги на корабле	
+* parch – родители / дети на корабле
+* ticket – номер билета	
+* fare – стоимость билета 
+* cabin – номер кабины
+embarked – порт посадки (C = Cherbourg, Q = Queenstown, S = Southampton)
+
+Проект включает в себя следющие файлы:
+1. Titanic.ipynb - код с DecisionTree
+2. train.csv - датасет для построения DecisionTree
